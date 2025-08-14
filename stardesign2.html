@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            height: 10%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .square2 {
+            height: 94%;
+            width: 94%;
+            background: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -47% 0 0 -47%;
+        }
+
+        .square1 {
+            height: 94%;
+            width: 94%;
+            background: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -47% 0 0 -47%;
+        }
+
+        .container {
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            left: 50%;
+            margin-top: 170px;
+            margin-left: -180px;
+        }
+
+        .square1 {
+            background: rgb(255, 32, 32);
+            animation: rot 10s infinite linear alternate-reverse;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+
+        @keyframes rot {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+
+        }
+
+        #sq1 {
+            background-color: blue;
+        }
+
+        .square2 {
+            background: rgb(32, 255, 73);
+            animation: rot 10s infinite linear;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        
+        }
+
+        @keyframes rot {
+            0% {
+                transform: rotate(0deg);
+
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+       
+    </style>
+</head>
+
+<body> 
+        <div class="container">
+            <div class="square1" id="sq1">
+                <div class="square2">
+                    <div class="square1">
+                        <div class="square2">
+                            <div class="square1" id="sq1">
+                                <div class="square2">
+                                    <div class="square1">
+                                        <div class="square2">
+                                            <div class="square1">
+                                                <div class="square2">
+                                                    <div class="square1" id="sq1">
+                                                        <div class="square2">
+                                                            <div class="square1">
+                                                                <div class="square2">
+                                                                    <div class="square1">
+                                                                        <div class="square2">
+                                                                            <div class="square1" id="sq1">
+                                                                                <div class="square2">
+                                                                                    <div class="square1">
+                                                                                        <div class="square2">
+                                                                                            <div class="square1">
+                                                                                                <div class="square2">
+                                                                                                    <div
+                                                                                                        class="square1">
+                                                                                                        <div
+                                                                                                            class="square2">
+                                                                                                            <div class="square1"
+                                                                                                                id="sq1">
+                                                                                                                <div
+                                                                                                                    class="square2">
+                                                                                                                    <div
+                                                                                                                        class="square1">
+                                                                                                                        <div
+                                                                                                                            class="square2">
+                                                                                                                            <div
+                                                                                                                                class="square1">
+                                                                                                                                <div
+                                                                                                                                    class="square2">
+                                                                                                                                    <div
+                                                                                                                                        class="square1">
+                                                                                                                                        <div
+                                                                                                                                            class="square2">
+                                                                                                                                            <div
+                                                                                                                                                class="square1">
+                                                                                                                                                <div
+                                                                                                                                                    class="square2">
+                                                                                                                                                    <div
+                                                                                                                                                        class="square1">
+                                                                                                                                                        <div
+                                                                                                                                                            class="square2">
+                                                                                                                                                            <div
+                                                                                                                                                                class="square1">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="square2">
+                                                                                                                                                                    <div class="square1"
+                                                                                                                                                                        id="sq1">
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+</body>
+
+</html>
